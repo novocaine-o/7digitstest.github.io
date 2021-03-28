@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="utf-8">
+        <title>7 digits - Movement Group</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="milu#9999">
+        <meta property="og:title" content="7 digits">
+        <meta property="og:description" content="CS:GO Movement Group">
+        <meta property="og:image" content="https://i.imgur.com/J9nbHKe.png">
+        <meta name="theme-color" content="#33FF33">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay();videoPlay()">click to enter</label>
+            </div>
+            <audio loop preload="auto" id="audio">
+                <source= src="howwasyourday.mp3" type="audio/mp3">
+            </audio>
+            <video muted loop playsinline preload="auto" class="fullscreen bg-video" id="video">
+                <source src="background-video.mp4" type="video/mp4">
+            </video>
+            <section class="fullscreen text-content">
+                <h1>7 digits</h1>
+                <p>Private CS:GO Movement Group</p>
+                <a href="https://7digits.boards.net/">enter forum</a>
+                <a href="https://discord.gg/n3cVuEfPHF" target="_blank" rel="noreferrer noopener">discord</a>
+                <a href="https://stats.uptimerobot.com/Yqwm7T32ND" target="_blank" rel="noreferrer noopener">status</a>
+            </section>
+        </main>
+    </body>
+</html>
