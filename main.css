@@ -70,7 +70,7 @@ body {
 .text-content a {
   font-size: 1.3rem;
   line-height: 1.7;
-  color: #00ff37;
+  color: #bababa;
 }
 #overlay-toggle:checked ~ .overlay {
   animation-fill-mode: forwards;
